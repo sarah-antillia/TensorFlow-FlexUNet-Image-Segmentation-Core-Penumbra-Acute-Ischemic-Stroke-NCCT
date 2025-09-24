@@ -314,7 +314,7 @@ Evaluation console output:<br>
 
 <a href="./projects/TensorFlowFlexUNet/CPAISD/evaluation.csv">evaluation.csv</a><br>
 
-The loss (bce_dice_loss) to this CPAISD/test was not so low, but dice_coef high as shown below.
+The loss (categorical_crossentropy) to this CPAISD/test was not so low, but dice_coef_multiclass high as shown below.
 <br>
 <pre>
 categorical_crossentropy,0.0473
