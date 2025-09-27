@@ -162,7 +162,7 @@ This will cause some pixel-level changes in the original images, which might be 
 </table>
 
 <br>
-<h4>2.4 PNG Dataset Images amd Masks </h4>
+<h4>2.4 PNG Dataset Images and Masks </h4>
 
 <b>Train_images_sample</b><br>
 <img src="./projects/TensorFlowFlexUNet/CPAISD/asset/train_images_sample.png" width="1024" height="auto">
@@ -187,7 +187,7 @@ Please move to ./projects/TensorFlowFlexUNet/CPAISDand run the following bat fil
 <hr>
 
 <b>Model parameters</b><br>
-Defined a small base_filters=16, large base_kernels=(9,9) for the first Conv Layer of Encoder Block of 
+Defined a small base_filters=16 and large base_kernels=(9,9) for the first Conv Layer of Encoder Block of 
 <a href="./src/TensorFlowFlexUNet.py">TensorFlowFlexUNet.py</a> 
 and a large num_layers (including a bridge between Encoder and Decoder Blocks).
 <pre>
