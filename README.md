@@ -188,7 +188,7 @@ Please move to ./projects/TensorFlowFlexUNet/CPAISDand run the following bat fil
 
 <b>Model parameters</b><br>
 Defined a small base_filters=16, large base_kernels=(9,9) for the first Conv Layer of Encoder Block of 
-<a href="./src/TensorFlowUNet.py">TensorFlowUNet.py</a> 
+<a href="./src/TensorFlowFlexUNet.py">TensorFlowFlexUNet.py</a> 
 and a large num_layers (including a bridge between Encoder and Decoder Blocks).
 <pre>
 [model]
@@ -229,7 +229,7 @@ loss           = "categorical_crossentropy"
 metrics        = ["dice_coef_multiclass"]
 </pre>
 <b>Learning rate reducer callback</b><br>
-Enabled learing_rate_reducer callback, and a small reducer_patience.
+Enabled learning_rate_reducer callback, and a small reducer_patience.
 <pre> 
 [train]
 learning_rate_reducer = True
